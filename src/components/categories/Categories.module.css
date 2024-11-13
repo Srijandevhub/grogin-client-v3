@@ -1,0 +1,17 @@
+.categoriesWrapper {
+    padding: 3rem 0;
+}
+.categoryBox {
+    padding: 0.9375rem;
+}
+.categoryBox i {
+    display: block;
+}
+.categoryBox i img {
+    width: 100%;
+}
+.categoryTitle {
+    font-size: 0.8125rem;
+    text-align: center;
+    font-weight: 500;
+}

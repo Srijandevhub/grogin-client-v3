@@ -12,13 +12,7 @@ body {
     color: #030712;
     background-color: #fff;
 }
-.adminpanel-main {
-    padding-left: 260px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    transition: 0.3s ease-in-out;
-    min-height: 100vh;
-}
-.adminpanel-main.full {
-    padding-left: 0px;
+.page-heading {
+    font-size: 1.125rem !important;
+    font-weight: 700;
 }
