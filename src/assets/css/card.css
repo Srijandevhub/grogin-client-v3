@@ -1,0 +1,19 @@
+.card {
+    border-radius: .375rem;
+    overflow: hidden;
+    border: 1px solid #080a0c2d;
+}
+.card .card-header {
+    padding: .5rem 1rem;
+    background-color: rgba(37, 43, 54, 0.03);
+    border-bottom: 1px solid #080a0c2d;
+}
+.card .card-body {
+    padding: 1rem;
+    background: #fff;
+}
+.card .card-footer {
+    padding: .5rem 1rem;
+    background-color: rgba(37, 43, 54, 0.03);
+    border-top: 1px solid #080a0c2d;
+}

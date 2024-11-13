@@ -1,0 +1,114 @@
+.btn {
+    display: inline-flex;
+    padding: 5px 12px;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-family: "inter", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    gap: 7px;
+}
+.btn:disabled {
+    cursor: default;
+    opacity: var(--btn-disabled-opacity);
+}
+.btn-default {
+    border-color: transparent;
+    background-color: transparent;
+    color: #06264c;
+}
+.btn-default:not(:disabled):hover {
+    opacity: 0.8;
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+.btn-primary-bordered {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+.btn-primary-bordered:not(:disabled):hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-primary:not(:disabled):hover {
+    background-color: var(--primary-hover-color);
+    border-color: var(--primary-hover-color);
+}
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.btn-secondary-bordered {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+.btn-secondary-bordered:not(:disabled):hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.btn-secondary:not(:disabled):hover {
+    background-color: var(--secondary-hover-color);
+    border-color: var(--secondary-hover-color);
+}
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    color: #fff;
+}
+.btn-success-bordered {
+    border-color: var(--success-color);
+    color: var(--success-color);
+    background-color: transparent;
+}
+.btn-success-bordered:not(:disabled):hover {
+    background-color: var(--success-color);
+    color: #fff;
+}
+.btn-success:not(:disabled):hover {
+    background-color: var(--success-hover-color);
+    border-color: var(--success-hover-color);
+}
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+    color: #fff;
+}
+.btn-danger-bordered {
+    border-color: var(--danger-color);
+    color: var(--danger-color);
+    background-color: transparent;
+}
+.btn-danger-bordered:not(:disabled):hover {
+    background-color: var(--danger-color);
+    color: #fff;
+}
+.btn-danger:not(:disabled):hover {
+    background-color: var(--danger-hover-color);
+    border-color: var(--danger-hover-color);
+}
+.link {
+    color: var(--info-color);
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'AdobeClean-Bold';
+    cursor: pointer;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link-danger {
+    color: var(--danger-color) !important;
+}

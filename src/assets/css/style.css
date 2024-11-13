@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-family: "Inter", sans-serif;
+    color: #030712;
+    background-color: #fff;
+}
+.adminpanel-main {
+    padding-left: 260px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    min-height: 100vh;
+}
+.adminpanel-main.full {
+    padding-left: 0px;
+}
